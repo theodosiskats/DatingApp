@@ -60,3 +60,8 @@ A:\.Net Course\DatingApp\api\bin\Debug\net7.0\Humanizer.dll
 A:\.Net Course\DatingApp\api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
 A:\.Net Course\DatingApp\api\bin\Debug\net7.0\Mono.TextTemplating.dll
 A:\.Net Course\DatingApp\api\bin\Debug\net7.0\System.CodeDom.dll
+A:\.Net Course\DatingApp\api\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+A:\.Net Course\DatingApp\api\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+A:\.Net Course\DatingApp\api\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+A:\.Net Course\DatingApp\api\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+A:\.Net Course\DatingApp\api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll

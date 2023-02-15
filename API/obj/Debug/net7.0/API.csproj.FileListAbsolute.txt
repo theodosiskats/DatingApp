@@ -65,3 +65,6 @@ A:\.Net Course\DatingApp\api\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTok
 A:\.Net Course\DatingApp\api\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
 A:\.Net Course\DatingApp\api\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
 A:\.Net Course\DatingApp\api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+A:\.Net Course\DatingApp\api\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+A:\.Net Course\DatingApp\api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+A:\.Net Course\DatingApp\api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

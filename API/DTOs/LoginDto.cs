@@ -1,9 +1,8 @@
-namespace API.DTOs
-{
-    public class LoginDto
-    {
-        public string Username { get; set; }
+namespace API.DTOs;
 
-        public string Password { get; set; }
-    }
+public class LoginDto
+{
+    public string Username { get; set; }
+
+    public string Password { get; set; }
 }

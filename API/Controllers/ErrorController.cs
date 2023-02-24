@@ -21,7 +21,7 @@ public class ErrorController : BaseApiController
     }
 
     [HttpGet("not-found")]
-    public ActionResult<AppUser> NotFound()
+    public ActionResult<AppUser> GetNotFound()
     {
         var thing = _context.Users.Find(-1);
 
@@ -29,7 +29,7 @@ public class ErrorController : BaseApiController
 
         return thing;
     }
-
+    
     [HttpGet("server-error")]
     public ActionResult<string> GetServerError()
     {

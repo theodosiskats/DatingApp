@@ -13,28 +13,28 @@ export class TestErrorComponent {
   constructor(private http: HttpClient) {}
 
   get404Error() {
-    this.http.get(this.baseUrl + 'buggy/not-found').subscribe({
+    this.http.get(this.baseUrl + 'error/not-found').subscribe({
       next: response => console.log(response),
       error: error => console.log(error)
     })
   }
 
   get400Error() {
-    this.http.get(this.baseUrl + 'buggy/bad-request').subscribe({
+    this.http.get(this.baseUrl + 'error/bad-request').subscribe({
       next: response => console.log(response),
       error: error => console.log(error)
     })
   }
 
   get500Error() {
-    this.http.get(this.baseUrl + 'buggy/server-error').subscribe({
+    this.http.get(this.baseUrl + 'error/server-error').subscribe({
       next: response => console.log(response),
       error: error => console.log(error)
     })
   }
 
   get401Error() {
-    this.http.get(this.baseUrl + 'buggy/auth').subscribe({
+    this.http.get(this.baseUrl + 'error/auth').subscribe({
       next: response => console.log(response),
       error: error => console.log(error)
     })

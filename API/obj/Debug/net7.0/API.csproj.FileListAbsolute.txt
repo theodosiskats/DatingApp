@@ -68,3 +68,4 @@ A:\.Net Course\DatingApp\api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dl
 A:\.Net Course\DatingApp\api\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 A:\.Net Course\DatingApp\api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
 A:\.Net Course\DatingApp\api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+A:\.Net Course\DatingApp\api\bin\Debug\net7.0\Data\UserSeedData.json

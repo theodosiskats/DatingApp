@@ -1,6 +1,6 @@
 ﻿using API.Data;
 using API.Entities;
-using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers;
@@ -13,7 +13,8 @@ public class ErrorController : BaseApiController
     {
         _context = context;
     }
-
+    
+    [Authorize]
     [HttpGet("auth")]
     public ActionResult<string> GetSecret()
     {

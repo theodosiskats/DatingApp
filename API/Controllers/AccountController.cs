@@ -31,7 +31,7 @@ public class AccountController : BaseApiController
         {
             UserName = registerDto.Username.ToLower(),
             PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(registerDto.Password)),
-            PaswordSalt = hmac.Key
+            PasswordSalt = hmac.Key
         };
 
         _context.Users.Add(user);
@@ -51,7 +51,7 @@ public class AccountController : BaseApiController
 
         if (user == null) return Unauthorized("Invalid username");
 
-        using var hmac = new HMACSHA512(user.PaswordSalt);
+        using var hmac = new HMACSHA512(user.PasswordSalt);
 
         var computedHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(loginDto.Password));
 

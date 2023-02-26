@@ -69,3 +69,5 @@ A:\.Net Course\DatingApp\api\bin\Debug\net7.0\Microsoft.AspNetCore.Authenticatio
 A:\.Net Course\DatingApp\api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
 A:\.Net Course\DatingApp\api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 A:\.Net Course\DatingApp\api\bin\Debug\net7.0\Data\UserSeedData.json
+A:\.Net Course\DatingApp\api\bin\Debug\net7.0\AutoMapper.dll
+A:\.Net Course\DatingApp\api\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

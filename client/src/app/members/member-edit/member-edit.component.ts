@@ -14,11 +14,13 @@ import {NgForm} from "@angular/forms";
 })
 export class MemberEditComponent {
   @ViewChild('editForm') editForm: NgForm | undefined
-  @HostListener('window:beforeunload', ['$event']) unloadNotification($event:any) {
-    if(this.editForm?.dirty) {
+
+  @HostListener('window:beforeunload', ['$event']) unloadNotification($event: any) {
+    if (this.editForm?.dirty) {
       $event.returnValue = true
     }
   }
+
   member: Member | undefined;
   user: User | null = null;
 
@@ -33,15 +35,18 @@ export class MemberEditComponent {
   }
 
   loadMember() {
-    if(!this.user) return;
+    if (!this.user) return;
     this.memberService.getMember(this.user.username).subscribe({
-      next: member=> this.member = member
+      next: member => this.member = member
     })
   }
 
   updateMember() {
-    //add logic for update request
-    this.editForm?.reset(this.member)
-    this.toastr.success('Profile updated Successfully')
+    this.memberService.updateMember(this.editForm?.value).subscribe({
+      next: _ => {
+        this.editForm?.reset(this.member)
+        this.toastr.success('Profile updated Successfully')
+      }
+    })
   }
 }

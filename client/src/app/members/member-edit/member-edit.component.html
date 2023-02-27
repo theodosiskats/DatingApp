@@ -3,8 +3,9 @@
     <h1>Your Profile</h1>
   </div>
   <div class="col-8">
-    <div class="alert alert-primary" *ngIf="editForm.dirty">
-      <p><strong>Information: </strong> You have made changes, any unsaved changes will be lost.</p>
+    <div class="alert alert-dismissible alert-warning pb-1" *ngIf="editForm.dirty">
+      <h5 class="alert-heading">Caution!</h5>
+      <p>You have made changes, any unsaved changes will be lost.</p>
     </div>
   </div>
   <div class="col-4">

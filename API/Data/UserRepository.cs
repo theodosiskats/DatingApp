@@ -58,6 +58,12 @@ public class UserRepository : IUserRepository
         var minDob = DateOnly.FromDateTime(DateTime.Today.AddYears(-userParams.MaxAge - 1));
         var maxDob = DateOnly.FromDateTime(DateTime.Today.AddYears(-userParams.MinAge));
 
+        query = userParams.OrderBy switch
+        {
+            "created" => query.OrderByDescending(u => u.Created),
+            _ => query.OrderByDescending(u => u.LastActive)
+        };
+
         query = query.Where(u => u.DateOfBirth >= minDob && u.DateOfBirth <= maxDob);
         
 

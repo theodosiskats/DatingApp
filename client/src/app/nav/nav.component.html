@@ -24,8 +24,8 @@
       </ul>
 
       <div class="dropdown" *ngIf="(accountService.currentUser$ | async) as user" dropdown>
-        <img class="rounded mx-auto me-3" src="{{user.photoUrl || './assets/user.png'}}" alt="user picture">
-        <a class="dropdown-toggle text-light ms-auto text-decoration-none" dropdownToggle>{{user.username | titlecase}}</a>
+        <img class="rounded mx-auto me-3" src="{{user.photoUrl || './assets/images/user.png'}}" alt="user picture">
+        <a class="dropdown-toggle text-light ms-auto text-decoration-none" dropdownToggle>{{user.knownAs | titlecase}}</a>
         <div class="dropdown-menu mt-3" *dropdownMenu>
           <a class="dropdown-item" routerLink="/member/edit">Edit Profile</a>
           <div class="dropdown-divider"></div>

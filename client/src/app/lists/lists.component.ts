@@ -17,7 +17,7 @@ export class ListsComponent {
 
   constructor(private memberService: MembersService) { }
 
-  ngOnInit() {
+  ngOnInit(): void {
     this.loadLikes()
   }
 

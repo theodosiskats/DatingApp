@@ -73,3 +73,9 @@ A:\.Net Course\DatingApp\api\bin\Debug\net7.0\AutoMapper.dll
 A:\.Net Course\DatingApp\api\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 A:\.Net Course\DatingApp\api\bin\Debug\net7.0\CloudinaryDotNet.dll
 A:\.Net Course\DatingApp\api\bin\Debug\net7.0\Newtonsoft.Json.dll
+A:\.Net Course\DatingApp\api\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+A:\.Net Course\DatingApp\api\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+A:\.Net Course\DatingApp\api\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+A:\.Net Course\DatingApp\api\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+A:\.Net Course\DatingApp\api\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+A:\.Net Course\DatingApp\api\bin\Debug\net7.0\Microsoft.Extensions.Options.dll

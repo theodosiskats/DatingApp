@@ -25,7 +25,8 @@ public class UsersController : BaseApiController
         _photoService = photoService;
     }
 
-    [Authorize(Roles = "Admin")]
+    // [Authorize(Roles = "Admin")]
+    [Authorize]
     [HttpGet]
     public async Task<ActionResult<PagedList<MemberDto>>> GetUsers([FromQuery]UserParams userParams)
     {

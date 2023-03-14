@@ -5,6 +5,7 @@ using API.Extensions;
 using API.Helpers;
 using API.Interfaces;
 using AutoMapper;
+using CloudinaryDotNet.Actions;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -24,6 +25,7 @@ public class UsersController : BaseApiController
         _photoService = photoService;
     }
 
+    [Authorize(Roles = "Admin")]
     [HttpGet]
     public async Task<ActionResult<PagedList<MemberDto>>> GetUsers([FromQuery]UserParams userParams)
     {
@@ -42,7 +44,6 @@ public class UsersController : BaseApiController
 
         return Ok(users);
     }
-
 
     [HttpGet("{username}")]
     public async Task<ActionResult<MemberDto>> GetUser(string username)

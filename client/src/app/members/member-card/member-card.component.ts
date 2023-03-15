@@ -12,7 +12,7 @@ import {PresenceService} from "../../_services/presence.service";
 export class MemberCardComponent {
   @Input() member: Member | undefined;
 
-  constructor(private memberService: MembersService, private toastr: ToastrService, public presenceServive: PresenceService) { }
+  constructor(private memberService: MembersService, private toastr: ToastrService, public presenceService: PresenceService) { }
 
   addLike(member: Member){
     this.memberService.addLike(member.userName).subscribe({

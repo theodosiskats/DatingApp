@@ -7,6 +7,7 @@ import {
 import { Observable, of } from 'rxjs';
 import {MembersService} from "../_services/members.service";
 import {Member} from "../_models/member";
+import {PresenceService} from "../_services/presence.service";
 
 @Injectable({
   providedIn: 'root'

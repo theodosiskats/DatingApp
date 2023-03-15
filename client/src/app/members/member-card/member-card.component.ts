@@ -2,6 +2,7 @@ import {Component, Input, ViewEncapsulation} from '@angular/core';
 import { ToastrService } from 'ngx-toastr';
 import { MembersService } from 'src/app/_services/members.service';
 import {Member} from "../../_models/member";
+import {PresenceService} from "../../_services/presence.service";
 
 @Component({
   selector: 'app-member-card',
@@ -11,7 +12,7 @@ import {Member} from "../../_models/member";
 export class MemberCardComponent {
   @Input() member: Member | undefined;
 
-  constructor(private memberService: MembersService, private toastr: ToastrService) {}
+  constructor(private memberService: MembersService, private toastr: ToastrService, public presenceServive: PresenceService) { }
 
   addLike(member: Member){
     this.memberService.addLike(member.userName).subscribe({

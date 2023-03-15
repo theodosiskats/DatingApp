@@ -8,7 +8,6 @@ using Microsoft.AspNetCore.SignalR;
 
 namespace API.SignalR;
 
-[Authorize]
 public class MessageHub : Hub
 {
     private readonly IMessageRepository _messageRepository;
@@ -31,7 +30,7 @@ public class MessageHub : Hub
         
         var messages = await _messageRepository.GetMessageThread(Context.User.GetUsername(), otherUser);
 
-        await Clients.Group(groupName).SendAsync("ReceiveMessageThread");
+        await Clients.Group(groupName).SendAsync("ReceiveMessageThread", messages);
     }
 
     public override Task OnDisconnectedAsync(Exception exception)

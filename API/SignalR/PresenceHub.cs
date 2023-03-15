@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.SignalR;
 
 namespace API.SignalR;
 
+[Authorize]
 public class PresenceHub : Hub
 {
     private readonly PresenceTracker _tracker;
@@ -13,7 +14,6 @@ public class PresenceHub : Hub
         _tracker = tracker;
     }
     
-    [Authorize]
     public override async Task OnConnectedAsync()
     {
         await Clients.Others.SendAsync("UserConnected", Context.User.GetUsername());

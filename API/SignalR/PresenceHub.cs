@@ -1,5 +1,4 @@
 ﻿using API.Extensions;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.SignalR;
 
 namespace API.SignalR;
@@ -15,22 +14,20 @@ public class PresenceHub : Hub
     
     public override async Task OnConnectedAsync()
     {
-        await Clients.Others.SendAsync("UserConnected", Context.User.GetUsername());
-        await _tracker.UserConnected(Context.User.GetUsername(), Context.ConnectionId);
+        var isOnline = await _tracker.UserConnected(Context.User.GetUsername(), Context.ConnectionId);
+        if (isOnline)
+            await Clients.Others.SendAsync("UserIsOnline", Context.User.GetUsername());
 
         var currentUsers = await _tracker.GetOnlineUsers();
-        await Clients.All.SendAsync("GetOnlineUsers", currentUsers);
+        await Clients.Caller.SendAsync("GetOnlineUsers", currentUsers);
     }
 
     public override async Task OnDisconnectedAsync(Exception exception)
     {
-        await _tracker.UserDisconected(Context.User.GetUsername(), Context.ConnectionId);
-        
-        await Clients.Others.SendAsync("UserDisconnected", Context.User.GetUsername());
+        var isOffline = await _tracker.UserDisconnected(Context.User.GetUsername(), Context.ConnectionId);
 
-        var currentUsers = await _tracker.GetOnlineUsers();
-        await Clients.All.SendAsync("GetOnlineUsers", currentUsers);
-        
+        if (isOffline) await Clients.Others.SendAsync("UserIsOffline", Context.User.GetUsername());
+
         await base.OnDisconnectedAsync(exception);
     }
 }

@@ -15,6 +15,7 @@ processes = []
   CloudinarySettings__Api="881174623144289"
 
 [experimental]
+  allowed_public_ports = []
   auto_rollback = true
 
 [[services]]

@@ -82,8 +82,6 @@ public class MessageRepository : IMessageRepository
             {
                 message.DateRead = DateTime.UtcNow;
             }
-
-
         }
         return _mapper.Map<IEnumerable<MessageDto>>(messages);
     }

@@ -80,3 +80,5 @@ A:\.Net Course\DatingApp\api\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core
 A:\.Net Course\DatingApp\api\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
 A:\.Net Course\DatingApp\api\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
 A:\.Net Course\DatingApp\api\bin\Debug\net7.0\API.staticwebassets.runtime.json
+A:\.Net Course\DatingApp\api\bin\Debug\net7.0\Npgsql.dll
+A:\.Net Course\DatingApp\api\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NAxn03+5h2N+r5o3SQfTZzr97OM2xIGYpPCpQ7+182wRmglXOSpb/jqBA1nLLVs0mlzC2ty8vT2bs6JC5BwEeQ==",
+  "dgSpecHash": "89FxgGF98htLdAOKhsPvMne9YtLvdsSjjgw6ZUhNsmUjVoVNCWFuOkTNEqlwylU8F/3Zjv6n7mWXV96cdSrpHA==",
   "success": true,
   "projectFilePath": "A:\\.Net Course\\DatingApp\\api\\API.csproj",
   "expectedPackageFiles": [
@@ -46,6 +46,8 @@
     "C:\\Users\\theod\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\theod\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\theod\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\theod\\.nuget\\packages\\npgsql\\7.0.2\\npgsql.7.0.2.nupkg.sha512",
+    "C:\\Users\\theod\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\7.0.3\\npgsql.entityframeworkcore.postgresql.7.0.3.nupkg.sha512",
     "C:\\Users\\theod\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.2\\sqlitepclraw.bundle_e_sqlite3.2.1.2.nupkg.sha512",
     "C:\\Users\\theod\\.nuget\\packages\\sqlitepclraw.core\\2.1.2\\sqlitepclraw.core.2.1.2.nupkg.sha512",
     "C:\\Users\\theod\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.2\\sqlitepclraw.lib.e_sqlite3.2.1.2.nupkg.sha512",

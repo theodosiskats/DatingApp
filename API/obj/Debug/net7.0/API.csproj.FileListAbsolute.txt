@@ -79,3 +79,4 @@ A:\.Net Course\DatingApp\api\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.Enti
 A:\.Net Course\DatingApp\api\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
 A:\.Net Course\DatingApp\api\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
 A:\.Net Course\DatingApp\api\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+A:\.Net Course\DatingApp\api\bin\Debug\net7.0\API.staticwebassets.runtime.json

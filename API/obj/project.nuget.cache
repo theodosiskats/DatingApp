@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gwlIo2hq8cy6QC7Eyvr6wHeCw3u40yi2J6uiMn25FiCwmRXLlmIjv2ePDmXy7wOULJPm5rMVDKUDZKAfXae8Sw==",
+  "dgSpecHash": "NAxn03+5h2N+r5o3SQfTZzr97OM2xIGYpPCpQ7+182wRmglXOSpb/jqBA1nLLVs0mlzC2ty8vT2bs6JC5BwEeQ==",
   "success": true,
-  "projectFilePath": "A:\\.Net Course\\DatingApp\\API\\API.csproj",
+  "projectFilePath": "A:\\.Net Course\\DatingApp\\api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\theod\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\theod\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

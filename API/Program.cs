@@ -44,7 +44,7 @@ var app = builder.Build();
 
 app.UseMiddleware<ExceptionMiddleware>();
 
-app.UseCors(builder => builderfly
+app.UseCors(builder => builder
     .AllowAnyMethod()
     .AllowAnyHeader()
     .AllowCredentials()

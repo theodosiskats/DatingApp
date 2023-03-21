@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "W+agFiArNXfjqwZeaJmVtBazC5j4ZMO18wtuhIENWEg=",
+  "Hash": "p0Dm+p+XSLUqONw0e34XtfcOIiLbPG4EE3zplhctjUg=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -187,12 +187,12 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "A:\\.Net Course\\DatingApp\\api\\wwwroot\\main.84617391b2ee1560.js",
+      "Identity": "A:\\.Net Course\\DatingApp\\api\\wwwroot\\main.6c483e1e4ce6aaa6.js",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "A:\\.Net Course\\DatingApp\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "main.84617391b2ee1560.js",
+      "RelativePath": "main.6c483e1e4ce6aaa6.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -201,7 +201,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\main.84617391b2ee1560.js"
+      "OriginalItemSpec": "wwwroot\\main.6c483e1e4ce6aaa6.js"
     },
     {
       "Identity": "A:\\.Net Course\\DatingApp\\api\\wwwroot\\polyfills.be126616119fee81.js",

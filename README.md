@@ -43,21 +43,21 @@
 
 4. In the `API` project, run the following commands to create the database schema:
 
-```bash
+```
 dotnet ef migrations add InitialCreate
 dotnet ef database update
 ```
 
 5. In the `Client` project, run the following command to install dependencies:
 
-```bash
+```
 npm install
 ```
 
 
 6. In the `Client` project, run the following command to start the application:
 
-```bashbash
+```
 ng serve
 ```
 
@@ -68,11 +68,11 @@ ng serve
 You can also run the application using Docker. To do so, follow these steps:
 
 1. Build the Docker image by running the following command in the root directory of the project:
-```bash
+```
 docker build -t datingapp .
 ```
 2. Run the Docker container:
-```bash
+```
 docker run -d -p 8080:80 datingapp
 ```
 
@@ -104,12 +104,12 @@ You can deploy the application to Fly.io using the following steps:
 
 3. In the root directory of the project, run the following command to create a new Fly.io application:
 
-```bash
+```
 fly apps create
 ```
 4. Set the environment variables required by the application using the following commands:
 
-```bash
+```
 fly secrets set DATABASE_URL=<your-database-url>
 fly secrets set CLOUDINARY_CLOUD_NAME=<your-cloudinary-cloud-name>
 fly secrets set CLOUDINARY_API_KEY=<your-cloudinary-api-key>
@@ -120,13 +120,13 @@ fly secrets set JWT_SECRET=<your-jwt-secret>
 
 
 6. In the root directory of the project, run the following command to deploy the application:
-```bash
+```
 fly deploy
 ```
 
 7. Once the deployment is complete, run the following command to open the application in a web browser:
 
-```bash
+```
 fly open
 ```
 That's it! Your application is now deployed to Fly.io.

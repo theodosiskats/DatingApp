@@ -1,6 +1,4 @@
-﻿# DatingApp
-
-<h1 align="center">
+﻿<h1 align="center">
   <img alt="Dating App logo" src="https://res.cloudinary.com/theodosisk/image/upload/v1679432605/OnlinePublicAssets/Dating_App_Logo_ql8klz.png" width="224px"/><br/>
   Dating App
 </h1>
@@ -8,7 +6,7 @@
 
 <p align="center">
 <a href="https://pkg.go.dev/github.com/create-go-app/cli/v3?tab=doc" 
-target="_blank"><img src="https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white" alt="Angular" /></a>&nbsp;<a href="https://gocover.io/github.com/create-go-app/cli/pkg/cgapp" target="_blank"><img src="https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white" alt="DotNet" /></a>&nbsp;<a href="https://github.com/theodosiskats/DatingApp/actions" target="_blank"><img src="https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHubActions" /></a>&nbsp;<img src="https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge" alt="license" /></p>
+target="_blank"><img src="https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white" alt="Angular" /></a>&nbsp;<a href="https://gocover.io/github.com/create-go-app/cli/pkg/cgapp" target="_blank"><img src="https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white" alt="DotNet" /></a>&nbsp;<a href="https://github.com/theodosiskats/DatingApp/actions" target="_blank"><img src="https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHubActions" /></a>&nbsp;<img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="license" />&nbsp;<img src="https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge" alt="license" /></p>
 
 ## Prerequisites
 - Node.js
@@ -19,27 +17,18 @@ target="_blank"><img src="https://img.shields.io/badge/angular-%23DD0031.svg?sty
 - HTTPS certificate
 
 ## Packages
-<div align="center">
-  
-<style>
-  table {
-    width: 60%;
-  }
-  th, td {
-    padding: 0, 50px;
-    text-align: center;
-  }
-</style>
+<div text-align="center">
 
 | Angular 15 | .NET Core 7 |
 | ---------- | ----------- |
-| Reactive forms | Entity Framework |
+| Reactive Forms | Entity Framework |
 | Ngx-Bootstrap | PostgreSQL |
 | Pagination | Microsoft ASP.NET Identity |
 | Toastr | Cloudinary |
 | Tabs | AutoMapper |
 
 </div>
+
 ## Patterns
 - Repository
 - Unit of Work
@@ -145,4 +134,4 @@ That's it! Your application is now deployed to Fly.io.
 
 ## ⚠️ License
 
-`Dating App` is free and open-source software licensed under the [MIT License](https://github.com/theodosiskats/DatingApp/LICENSE).
+`Dating App` is free and open-source software licensed under the [MIT License](https://github.com/theodosiskats/DatingApp/blob/master/LICENSE).

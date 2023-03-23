@@ -7,6 +7,8 @@
 <p align="center">
 <img src="https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white" alt="Angular" /></a>&nbsp;<img src="https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white" alt="DotNet" />&nbsp;<a href="https://github.com/theodosiskats/DatingApp/actions" target="_blank"><img src="https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHubActions" /></a>&nbsp;<img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="license" />&nbsp;<a href="https://github.com/theodosiskats/DatingApp/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge" alt="license" /></a></p>
 
+<p>Live demo: <a href="https://datingappkt.fly.dev/">here</a></p>
+
 ## Prerequisites
 - Node.js
 - Angular CLI

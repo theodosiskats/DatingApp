@@ -13,7 +13,7 @@
 - .NET Core 7 SDK
 - PostgreSQL database
 - Cloudinary account
-- HTTPS certificate
+- HTTPS certificate (sample keys included)
 
 ## Packages
 <div text-align="center">

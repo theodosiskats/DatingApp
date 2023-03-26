@@ -1,6 +1,6 @@
 import {Injectable} from '@angular/core';
 import {env} from "../../environments/environment";
-import {HttpClient, HttpHeaders, HttpParams} from "@angular/common/http";
+import {HttpClient} from "@angular/common/http";
 import {Member} from "../_models/member";
 import {map, of, take} from "rxjs";
 import {UserParams} from "../_models/userParams";

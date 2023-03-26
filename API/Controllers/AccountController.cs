@@ -24,7 +24,7 @@ public class AccountController : BaseApiController
         _mapper = mapper;
     }
 
-    [HttpPost("register")] // POST: api/accounts/register?username=dave&password=pwd
+    [HttpPost("register")] // POST: api/account/register?username=dave&password=pwd
     public async Task<ActionResult<UserDto>> Register(RegisterDto registerDto)
     {
         if (await UserExists(registerDto.Username)) return BadRequest("Username is taken");
@@ -50,7 +50,7 @@ public class AccountController : BaseApiController
         };
     }
 
-    [HttpPost("login")] // POST: api/accounts/login
+    [HttpPost("login")] // POST: api/account/login
     public async Task<ActionResult<UserDto>> Login(LoginDto loginDto)
     {
         var user = await _userManager.Users

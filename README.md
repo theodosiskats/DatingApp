@@ -53,7 +53,7 @@ dotnet ef database update
 5. In the `Client` project, run the following command to install dependencies:
 
 ```
-npm install
+npm install --legacy-peer-deps
 ```
 
 

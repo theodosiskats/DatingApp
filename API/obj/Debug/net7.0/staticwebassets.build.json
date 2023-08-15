@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "p0Dm+p+XSLUqONw0e34XtfcOIiLbPG4EE3zplhctjUg=",
+  "Hash": "mjjMA42xzo0N8m985lsik/BKHEHdcrw6VOc2Apj1fHs=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "API\\wwwroot",
       "Source": "API",
-      "ContentRoot": "A:\\.Net Course\\DatingApp\\api\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\GitHub\\DatingApp\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "A:\\.Net Course\\DatingApp\\api\\wwwroot\\3rdpartylicenses.txt",
+      "Identity": "D:\\Repos\\GitHub\\DatingApp\\API\\wwwroot\\3rdpartylicenses.txt",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\.Net Course\\DatingApp\\api\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\GitHub\\DatingApp\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "3rdpartylicenses.txt",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\3rdpartylicenses.txt"
     },
     {
-      "Identity": "A:\\.Net Course\\DatingApp\\api\\wwwroot\\assets\\images\\404notfound.png",
+      "Identity": "D:\\Repos\\GitHub\\DatingApp\\API\\wwwroot\\assets\\images\\404notfound.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\.Net Course\\DatingApp\\api\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\GitHub\\DatingApp\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/images/404notfound.png",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\404notfound.png"
     },
     {
-      "Identity": "A:\\.Net Course\\DatingApp\\api\\wwwroot\\assets\\images\\user.png",
+      "Identity": "D:\\Repos\\GitHub\\DatingApp\\API\\wwwroot\\assets\\images\\user.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\.Net Course\\DatingApp\\api\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\GitHub\\DatingApp\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/images/user.png",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\user.png"
     },
     {
-      "Identity": "A:\\.Net Course\\DatingApp\\api\\wwwroot\\favicon.ico",
+      "Identity": "D:\\Repos\\GitHub\\DatingApp\\API\\wwwroot\\favicon.ico",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\.Net Course\\DatingApp\\api\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\GitHub\\DatingApp\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "A:\\.Net Course\\DatingApp\\api\\wwwroot\\fontawesome-webfont.2b13baa7dd4f54c9.eot",
+      "Identity": "D:\\Repos\\GitHub\\DatingApp\\API\\wwwroot\\fontawesome-webfont.2b13baa7dd4f54c9.eot",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\.Net Course\\DatingApp\\api\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\GitHub\\DatingApp\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "fontawesome-webfont.2b13baa7dd4f54c9.eot",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\fontawesome-webfont.2b13baa7dd4f54c9.eot"
     },
     {
-      "Identity": "A:\\.Net Course\\DatingApp\\api\\wwwroot\\fontawesome-webfont.8a7cb27d142e3e19.ttf",
+      "Identity": "D:\\Repos\\GitHub\\DatingApp\\API\\wwwroot\\fontawesome-webfont.8a7cb27d142e3e19.ttf",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\.Net Course\\DatingApp\\api\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\GitHub\\DatingApp\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "fontawesome-webfont.8a7cb27d142e3e19.ttf",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\fontawesome-webfont.8a7cb27d142e3e19.ttf"
     },
     {
-      "Identity": "A:\\.Net Course\\DatingApp\\api\\wwwroot\\fontawesome-webfont.cf011583fb81df9f.woff",
+      "Identity": "D:\\Repos\\GitHub\\DatingApp\\API\\wwwroot\\fontawesome-webfont.cf011583fb81df9f.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\.Net Course\\DatingApp\\api\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\GitHub\\DatingApp\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "fontawesome-webfont.cf011583fb81df9f.woff",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\fontawesome-webfont.cf011583fb81df9f.woff"
     },
     {
-      "Identity": "A:\\.Net Course\\DatingApp\\api\\wwwroot\\fontawesome-webfont.da909aa098b0ee2d.svg",
+      "Identity": "D:\\Repos\\GitHub\\DatingApp\\API\\wwwroot\\fontawesome-webfont.da909aa098b0ee2d.svg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\.Net Course\\DatingApp\\api\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\GitHub\\DatingApp\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "fontawesome-webfont.da909aa098b0ee2d.svg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\fontawesome-webfont.da909aa098b0ee2d.svg"
     },
     {
-      "Identity": "A:\\.Net Course\\DatingApp\\api\\wwwroot\\fontawesome-webfont.e9955780856cf8aa.woff2",
+      "Identity": "D:\\Repos\\GitHub\\DatingApp\\API\\wwwroot\\fontawesome-webfont.e9955780856cf8aa.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\.Net Course\\DatingApp\\api\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\GitHub\\DatingApp\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "fontawesome-webfont.e9955780856cf8aa.woff2",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\fontawesome-webfont.e9955780856cf8aa.woff2"
     },
     {
-      "Identity": "A:\\.Net Course\\DatingApp\\api\\wwwroot\\index.html",
+      "Identity": "D:\\Repos\\GitHub\\DatingApp\\API\\wwwroot\\index.html",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\.Net Course\\DatingApp\\api\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\GitHub\\DatingApp\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -187,12 +187,12 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "A:\\.Net Course\\DatingApp\\api\\wwwroot\\main.6c483e1e4ce6aaa6.js",
+      "Identity": "D:\\Repos\\GitHub\\DatingApp\\API\\wwwroot\\main.b491712dfbaeadb6.js",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\.Net Course\\DatingApp\\api\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\GitHub\\DatingApp\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "main.6c483e1e4ce6aaa6.js",
+      "RelativePath": "main.b491712dfbaeadb6.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -201,13 +201,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\main.6c483e1e4ce6aaa6.js"
+      "OriginalItemSpec": "wwwroot\\main.b491712dfbaeadb6.js"
     },
     {
-      "Identity": "A:\\.Net Course\\DatingApp\\api\\wwwroot\\polyfills.be126616119fee81.js",
+      "Identity": "D:\\Repos\\GitHub\\DatingApp\\API\\wwwroot\\polyfills.be126616119fee81.js",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\.Net Course\\DatingApp\\api\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\GitHub\\DatingApp\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "polyfills.be126616119fee81.js",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\polyfills.be126616119fee81.js"
     },
     {
-      "Identity": "A:\\.Net Course\\DatingApp\\api\\wwwroot\\runtime.7ae29a296d479790.js",
+      "Identity": "D:\\Repos\\GitHub\\DatingApp\\API\\wwwroot\\runtime.7ae29a296d479790.js",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\.Net Course\\DatingApp\\api\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\GitHub\\DatingApp\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "runtime.7ae29a296d479790.js",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\runtime.7ae29a296d479790.js"
     },
     {
-      "Identity": "A:\\.Net Course\\DatingApp\\api\\wwwroot\\scripts.2dd2975b13cf5b4a.js",
+      "Identity": "D:\\Repos\\GitHub\\DatingApp\\API\\wwwroot\\scripts.2dd2975b13cf5b4a.js",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\.Net Course\\DatingApp\\api\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\GitHub\\DatingApp\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "scripts.2dd2975b13cf5b4a.js",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\scripts.2dd2975b13cf5b4a.js"
     },
     {
-      "Identity": "A:\\.Net Course\\DatingApp\\api\\wwwroot\\styles.6bd7b7f2d5bcd3c6.css",
+      "Identity": "D:\\Repos\\GitHub\\DatingApp\\API\\wwwroot\\styles.6bd7b7f2d5bcd3c6.css",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\.Net Course\\DatingApp\\api\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\GitHub\\DatingApp\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "styles.6bd7b7f2d5bcd3c6.css",
       "AssetKind": "All",

@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "A:\\.Net Course\\DatingApp\\API\\API.csproj": {}
+    "D:\\Repos\\GitHub\\DatingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "A:\\.Net Course\\DatingApp\\API\\API.csproj": {
+    "D:\\Repos\\GitHub\\DatingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\.Net Course\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "D:\\Repos\\GitHub\\DatingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "A:\\.Net Course\\DatingApp\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\theod\\.nuget\\packages\\",
-        "outputPath": "A:\\.Net Course\\DatingApp\\API\\obj\\",
+        "projectPath": "D:\\Repos\\GitHub\\DatingApp\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\TheodosisKatsoulis\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\GitHub\\DatingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\theod\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TheodosisKatsoulis\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"

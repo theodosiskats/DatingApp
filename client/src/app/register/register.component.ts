@@ -27,6 +27,7 @@ export class RegisterComponent {
     this.maxDate.setFullYear(this.maxDate.getFullYear() - 18)
   }
 //TODO - Add user specified gender
+//TODO: Fix user already exists error not showing and instead a password error appears
   initializeForm() {
     this.registerForm = this.fb.group({
       gender: ['Non specified'],

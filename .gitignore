@@ -480,3 +480,4 @@ API/appsettings.json
 .vscode
 notes
 /General Development Assets
+API/obj/
